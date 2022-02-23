@@ -44,12 +44,14 @@ letter-spacing: -0.075em;
 }
 
 /* journal */
+
 .journal {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 36px;
-
+  padding: 0;
   font-family: Inter, sans-serif;
-  /* align-items: center; */
 }
 
 
@@ -65,7 +67,7 @@ letter-spacing: -0.075em;
 }
 
 .google {
-  padding-right: 180px;
+  /* padding-right: 180px; */
   color: #918E9B;
   text-decoration: underline;
   font-style: normal;
@@ -96,7 +98,6 @@ letter-spacing: -0.075em;
 
 
 .title {
-  padding-right: 170px;
   width: 326px;
   height: 40px;
   font-weight: bold;
@@ -107,7 +108,6 @@ letter-spacing: -0.075em;
 }
 
 .date {
-  padding-right: 155px;
   width: 319px;
   height: 11px;
   font-style: normal;
@@ -119,15 +119,13 @@ letter-spacing: -0.075em;
 }
 
 .description {
-  /* padding: 0; */
-  /* margin: 0; */
-  width: 326px;
+  width: 320px;
   height: 45px;
   font-style: normal;
   font-weight: normal;
   font-size: 10.24px;
   line-height: 150%;
+  align-self: flex-start;
   color: #2B283A;
-  padding-left: 0;
-
 }
+
